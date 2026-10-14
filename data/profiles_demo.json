@@ -1,0 +1,546 @@
+[
+  {
+    "id": "cp-demo-01",
+    "session_id": "demo-session-01",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-08T02:12:00.000Z",
+    "updated_at": "2026-10-08T02:12:00.000Z",
+    "turns": 4,
+    "attributes": {
+      "gift_for": {
+        "value": [
+          "媽媽"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "送媽媽",
+        "at": "2026-10-08T02:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "美妝保養"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "保養品",
+        "at": "2026-10-08T02:12:00.000Z"
+      },
+      "budget_item": {
+        "value": 7000,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "七千以內",
+        "at": "2026-10-08T02:12:00.000Z"
+      },
+      "shopping_channel": {
+        "value": "機場免稅店",
+        "source": "inferred",
+        "confidence": 0.7,
+        "evidence": "",
+        "at": "2026-10-08T02:12:00.000Z"
+      }
+    },
+    "intent_stage": "比較",
+    "sentiment": "正向",
+    "topics": [
+      "美妝"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "beauty-week",
+        "turn": 2,
+        "at": "2026-10-08T02:12:00.000Z"
+      }
+    ],
+    "first_question": "推薦送媽媽的保養品"
+  },
+  {
+    "id": "cp-demo-02",
+    "session_id": "demo-session-02",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-09T03:12:00.000Z",
+    "updated_at": "2026-10-09T03:12:00.000Z",
+    "turns": 3,
+    "attributes": {
+      "category_interest": {
+        "value": [
+          "酒類"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "威士忌",
+        "at": "2026-10-09T03:12:00.000Z"
+      },
+      "party_size": {
+        "value": 4,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "四個人",
+        "at": "2026-10-09T03:12:00.000Z"
+      },
+      "customer_type": {
+        "value": "家庭旅遊",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "全家去",
+        "at": "2026-10-09T03:12:00.000Z"
+      },
+      "destination": {
+        "value": "大阪",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "去大阪",
+        "at": "2026-10-09T03:12:00.000Z"
+      }
+    },
+    "intent_stage": "準備購買",
+    "sentiment": "中性",
+    "topics": [
+      "酒類",
+      "菸酒額度"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "liquor-allowance",
+        "turn": 1,
+        "at": "2026-10-09T03:12:00.000Z"
+      }
+    ],
+    "first_question": "全家四個人去大阪，可以帶幾瓶威士忌？"
+  },
+  {
+    "id": "cp-demo-03",
+    "session_id": "demo-session-03",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-09T04:12:00.000Z",
+    "updated_at": "2026-10-09T04:12:00.000Z",
+    "turns": 2,
+    "attributes": {
+      "is_member": {
+        "value": false,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "還不是會員",
+        "at": "2026-10-09T04:12:00.000Z"
+      },
+      "budget_total": {
+        "value": 5000,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "五千塊",
+        "at": "2026-10-09T04:12:00.000Z"
+      },
+      "price_sensitivity": {
+        "value": "高",
+        "source": "inferred",
+        "confidence": 0.7,
+        "evidence": "不想花太多",
+        "at": "2026-10-09T04:12:00.000Z"
+      }
+    },
+    "intent_stage": "瀏覽",
+    "sentiment": "中性",
+    "topics": [
+      "優惠"
+    ],
+    "marketing_consent": null,
+    "offers_shown": [
+      {
+        "rule_id": "join-member",
+        "turn": 1,
+        "at": "2026-10-09T04:12:00.000Z"
+      }
+    ],
+    "first_question": "我還不是會員，有什麼優惠？"
+  },
+  {
+    "id": "cp-demo-04",
+    "session_id": "demo-session-04",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-10T05:12:00.000Z",
+    "updated_at": "2026-10-10T05:12:00.000Z",
+    "turns": 5,
+    "attributes": {
+      "shopping_channel": {
+        "value": "宅配到府",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "寄到家",
+        "at": "2026-10-10T05:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "香水"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "香水",
+        "at": "2026-10-10T05:12:00.000Z"
+      },
+      "brand_preference": {
+        "value": [
+          "Jo Malone London"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "Jo Malone",
+        "at": "2026-10-10T05:12:00.000Z"
+      }
+    },
+    "intent_stage": "準備購買",
+    "sentiment": "正向",
+    "topics": [
+      "宅配"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "home-delivery",
+        "turn": 2,
+        "at": "2026-10-10T05:12:00.000Z"
+      }
+    ],
+    "first_question": "沒有要出國，香水可以寄到家嗎？"
+  },
+  {
+    "id": "cp-demo-05",
+    "session_id": "demo-session-05",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-11T06:12:00.000Z",
+    "updated_at": "2026-10-11T06:12:00.000Z",
+    "turns": 3,
+    "attributes": {
+      "customer_type": {
+        "value": "商務旅客",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "出差",
+        "at": "2026-10-11T06:12:00.000Z"
+      },
+      "travel_frequency": {
+        "value": "每月",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "每個月都飛",
+        "at": "2026-10-11T06:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "精品配件"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "皮夾",
+        "at": "2026-10-11T06:12:00.000Z"
+      },
+      "budget_total": {
+        "value": 30000,
+        "source": "stated",
+        "confidence": 0.8,
+        "evidence": "三萬左右",
+        "at": "2026-10-11T06:12:00.000Z"
+      }
+    },
+    "intent_stage": "比較",
+    "sentiment": "中性",
+    "topics": [
+      "優惠"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "luxury-card",
+        "turn": 2,
+        "at": "2026-10-11T06:12:00.000Z"
+      }
+    ],
+    "first_question": "常出差，買精品有什麼划算的方式？"
+  },
+  {
+    "id": "cp-demo-06",
+    "session_id": "demo-session-06",
+    "user_id": "mock-user-b",
+    "demo": true,
+    "created_at": "2026-10-11T07:12:00.000Z",
+    "updated_at": "2026-10-11T07:12:00.000Z",
+    "turns": 4,
+    "attributes": {
+      "member_tier": {
+        "value": "探索者",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-11T07:12:00.000Z"
+      },
+      "points_expire": {
+        "value": "2026-10-31",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-11T07:12:00.000Z"
+      },
+      "next_trip": {
+        "value": "2026-12-20",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-11T07:12:00.000Z"
+      },
+      "pain_points": {
+        "value": [
+          "點數快過期"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "點數快過期",
+        "at": "2026-10-11T07:12:00.000Z"
+      }
+    },
+    "intent_stage": "服務需求",
+    "sentiment": "中性",
+    "topics": [
+      "會員點數"
+    ],
+    "marketing_consent": false,
+    "offers_shown": [
+      {
+        "rule_id": "points-expiring",
+        "turn": 1,
+        "at": "2026-10-11T07:12:00.000Z"
+      }
+    ],
+    "first_question": "我的點數是不是快過期了？"
+  },
+  {
+    "id": "cp-demo-07",
+    "session_id": "demo-session-07",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-12T08:12:00.000Z",
+    "updated_at": "2026-10-12T08:12:00.000Z",
+    "turns": 2,
+    "attributes": {
+      "gift_for": {
+        "value": [
+          "長輩",
+          "同事"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "送長輩和同事",
+        "at": "2026-10-12T08:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "食品伴手禮"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "伴手禮",
+        "at": "2026-10-12T08:12:00.000Z"
+      },
+      "product_priorities": {
+        "value": [
+          "台灣品牌"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "台灣的",
+        "at": "2026-10-12T08:12:00.000Z"
+      },
+      "budget_item": {
+        "value": 1500,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "一千五以內",
+        "at": "2026-10-12T08:12:00.000Z"
+      }
+    },
+    "intent_stage": "比較",
+    "sentiment": "正向",
+    "topics": [
+      "伴手禮"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "gift-souvenir",
+        "turn": 1,
+        "at": "2026-10-12T08:12:00.000Z"
+      }
+    ],
+    "first_question": "出國要帶台灣的伴手禮送長輩和同事"
+  },
+  {
+    "id": "cp-demo-08",
+    "session_id": "demo-session-08",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-12T09:12:00.000Z",
+    "updated_at": "2026-10-12T09:12:00.000Z",
+    "turns": 3,
+    "attributes": {
+      "pain_points": {
+        "value": [
+          "提貨排隊"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "排很久",
+        "at": "2026-10-12T09:12:00.000Z"
+      },
+      "departure_airport": {
+        "value": "桃園第二航廈",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "第二航廈",
+        "at": "2026-10-12T09:12:00.000Z"
+      }
+    },
+    "intent_stage": "服務需求",
+    "sentiment": "負向",
+    "topics": [
+      "預購提貨",
+      "客訴"
+    ],
+    "marketing_consent": null,
+    "offers_shown": [
+      {
+        "rule_id": "care-unhappy",
+        "turn": 2,
+        "at": "2026-10-12T09:12:00.000Z"
+      }
+    ],
+    "first_question": "上次提貨排很久，這次有什麼辦法？"
+  },
+  {
+    "id": "cp-demo-09",
+    "session_id": "demo-session-09",
+    "user_id": "mock-user-c",
+    "demo": true,
+    "created_at": "2026-10-13T01:12:00.000Z",
+    "updated_at": "2026-10-13T01:12:00.000Z",
+    "turns": 4,
+    "attributes": {
+      "member_tier": {
+        "value": "領航者",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-13T01:12:00.000Z"
+      },
+      "next_trip": {
+        "value": "2026-10-23",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-13T01:12:00.000Z"
+      },
+      "favorite_product": {
+        "value": "蘭蔻 超未來肌因賦活露 100ml",
+        "source": "system",
+        "confidence": 1,
+        "evidence": "",
+        "at": "2026-10-13T01:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "酒類",
+          "美妝保養"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "威士忌跟保養品",
+        "at": "2026-10-13T01:12:00.000Z"
+      },
+      "gift_for": {
+        "value": [
+          "媽媽"
+        ],
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "送媽媽",
+        "at": "2026-10-13T01:12:00.000Z"
+      },
+      "budget_total": {
+        "value": 10000,
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "預算一萬",
+        "at": "2026-10-13T01:12:00.000Z"
+      }
+    },
+    "intent_stage": "準備購買",
+    "sentiment": "正向",
+    "topics": [
+      "酒類",
+      "美妝",
+      "預購提貨"
+    ],
+    "marketing_consent": true,
+    "offers_shown": [
+      {
+        "rule_id": "preorder-trip-soon",
+        "turn": 1,
+        "at": "2026-10-13T01:12:00.000Z"
+      }
+    ],
+    "first_question": "下週五飛東京，想預購威士忌跟送媽媽的保養品"
+  },
+  {
+    "id": "cp-demo-10",
+    "session_id": "demo-session-10",
+    "user_id": null,
+    "demo": true,
+    "created_at": "2026-10-14T02:12:00.000Z",
+    "updated_at": "2026-10-14T02:12:00.000Z",
+    "turns": 2,
+    "attributes": {
+      "customer_type": {
+        "value": "學生",
+        "source": "stated",
+        "confidence": 0.9,
+        "evidence": "我是學生",
+        "at": "2026-10-14T02:12:00.000Z"
+      },
+      "price_sensitivity": {
+        "value": "高",
+        "source": "inferred",
+        "confidence": 0.7,
+        "evidence": "學生",
+        "at": "2026-10-14T02:12:00.000Z"
+      },
+      "trip_date": {
+        "value": "2026-12-28",
+        "source": "stated",
+        "confidence": 0.8,
+        "evidence": "寒假",
+        "at": "2026-10-14T02:12:00.000Z"
+      },
+      "category_interest": {
+        "value": [
+          "美妝保養"
+        ],
+        "source": "inferred",
+        "confidence": 0.6,
+        "evidence": "",
+        "at": "2026-10-14T02:12:00.000Z"
+      }
+    },
+    "intent_stage": "瀏覽",
+    "sentiment": "中性",
+    "topics": [
+      "美妝"
+    ],
+    "marketing_consent": null,
+    "offers_shown": [],
+    "first_question": "寒假要出國，學生買什麼保養品比較划算？"
+  }
+]

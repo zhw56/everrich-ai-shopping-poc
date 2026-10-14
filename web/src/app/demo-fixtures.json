@@ -1,0 +1,205 @@
+{
+  "promos": [
+    {
+      "id": "promo-anniv-threshold",
+      "name": "週年慶 單筆滿額折",
+      "label": "單筆滿 10,000 元折 1,000 元",
+      "condition_label": "機場與市區免稅店、免稅購物網預購皆適用；酒類不列入滿額計算；需出示 RICHCLUB 會員",
+      "channel_label": "免稅店",
+      "requirement_label": "RICHCLUB 會員",
+      "valid_to": "2026-10-31",
+      "source_url": "https://www.everrich-group.com/events/Members/39827?lang=zh_TW",
+      "mock": true,
+      "verified": false
+    },
+    {
+      "id": "promo-anniv-badge",
+      "name": "週年慶徽章任務 1,000 RICH POINT",
+      "label": "完成 App 週年慶徽章任務，送 1,000 RICH POINT",
+      "condition_label": "需下載昇恆昌 App 解鎖「周慶徽章」並完成指定消費任務",
+      "channel_label": "免稅店與宅配網",
+      "requirement_label": "昇恆昌 App 任務",
+      "valid_to": "2026-10-31",
+      "source_url": "https://www.everrich-group.com/events/Members/39827?lang=zh_TW",
+      "mock": true,
+      "verified": false
+    },
+    {
+      "id": "promo-chaotai",
+      "name": "潮台由我不設限 台灣品牌滿額折",
+      "label": "台灣品牌與伴手禮滿 3,000 元折 300 元",
+      "condition_label": "限指定區域的台灣品牌與伴手禮",
+      "channel_label": "免稅店",
+      "requirement_label": "不限身分",
+      "valid_to": "2026-10-31",
+      "source_url": "https://www.everrich-group.com/events/promotion/39796?lang=zh_TW",
+      "mock": true,
+      "verified": false
+    },
+    {
+      "id": "promo-beauty-week",
+      "name": "美妝保養品牌週 指定品牌 88 折",
+      "label": "指定美妝保養品牌 88 折",
+      "condition_label": "機場與市區免稅店、免稅購物網預購適用",
+      "channel_label": "免稅店",
+      "requirement_label": "不限身分",
+      "valid_to": "2026-11-10",
+      "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+      "mock": true,
+      "verified": false
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "promo-card-cobrand",
+      "name": "昇恆昌聯名卡 免稅商品再 9 折起",
+      "label": "持昇恆昌聯名卡結帳，免稅商品再 9 折起",
+      "condition_label": "需以昇恆昌聯名信用卡結帳；部分品牌與商品不適用",
+      "channel_label": "免稅店",
+      "requirement_label": "昇恆昌聯名卡結帳",
+      "valid_to": null,
+      "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+      "mock": true,
+      "verified": false,
+      "saving": 1773,
+      "rebate": 0,
+      "points": 0,
+      "gap": 0,
+      "pay_amount": 15952,
+      "reason": "適用金額 17,725 元；結帳可折 1,773 元；需要昇恆昌聯名卡結帳"
+    },
+    {
+      "id": "promo-anniv-threshold",
+      "name": "週年慶 單筆滿額折",
+      "label": "單筆滿 10,000 元折 1,000 元",
+      "condition_label": "機場與市區免稅店、免稅購物網預購皆適用；酒類不列入滿額計算；需出示 RICHCLUB 會員",
+      "channel_label": "免稅店",
+      "requirement_label": "RICHCLUB 會員",
+      "valid_to": "2026-10-31",
+      "source_url": "https://www.everrich-group.com/events/Members/39827?lang=zh_TW",
+      "mock": true,
+      "verified": false,
+      "saving": 1000,
+      "rebate": 0,
+      "points": 0,
+      "gap": 0,
+      "pay_amount": 16725,
+      "reason": "適用金額 17,725 元；結帳可折 1,000 元；需要RICHCLUB 會員"
+    },
+    {
+      "id": "promo-beauty-week",
+      "name": "美妝保養品牌週 指定品牌 88 折",
+      "label": "指定美妝保養品牌 88 折",
+      "condition_label": "機場與市區免稅店、免稅購物網預購適用",
+      "channel_label": "免稅店",
+      "requirement_label": "不限身分",
+      "valid_to": "2026-11-10",
+      "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+      "mock": true,
+      "verified": false,
+      "saving": 1303,
+      "rebate": 0,
+      "points": 0,
+      "gap": 0,
+      "pay_amount": 16422,
+      "reason": "適用金額 10,856 元；結帳可折 1,303 元"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-skii-essence-230",
+      "name": "SK-II 青春露 230ml",
+      "brand": "SK-II",
+      "category": "美妝保養",
+      "channel": "dutyfree",
+      "price": 6250,
+      "size_label": "230ml",
+      "tags": [
+        "保濕",
+        "送禮",
+        "熱銷"
+      ],
+      "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+      "mock": true,
+      "verified": false,
+      "reason": "符合偏好：送禮；免稅價 6,250 元，在預算 7,000 元內"
+    },
+    {
+      "id": "prod-lancome-serum-100",
+      "name": "蘭蔻 超未來肌因賦活露 100ml",
+      "brand": "Lancôme",
+      "category": "美妝保養",
+      "channel": "dutyfree",
+      "price": 5880,
+      "size_label": "100ml",
+      "tags": [
+        "精華液",
+        "修護",
+        "送禮"
+      ],
+      "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+      "mock": true,
+      "verified": false,
+      "reason": "符合偏好：送禮；免稅價 5,880 元，在預算 7,000 元內"
+    },
+    {
+      "id": "prod-esteelauder-anr-100",
+      "name": "雅詩蘭黛 特潤超導全方位修護露 100ml",
+      "brand": "Estée Lauder",
+      "category": "美妝保養",
+      "channel": "dutyfree",
+      "price": 5500,
+      "size_label": "100ml",
+      "tags": [
+        "精華液",
+        "抗老",
+        "送禮"
+      ],
+      "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+      "mock": true,
+      "verified": false,
+      "reason": "符合偏好：送禮；免稅價 5,500 元，在預算 7,000 元內"
+    }
+  ],
+  "order": {
+    "order_no": "PO-20261012-0583",
+    "channel": "dutyfree",
+    "status": "待取貨",
+    "pickup_label": "桃園國際機場第二航廈｜2026-10-23 出境提貨（DM 108）",
+    "total": 7692,
+    "subtotal": 8530,
+    "discount_total": -838,
+    "items": [
+      {
+        "name": "麥卡倫 12 年雪莉桶 700ml",
+        "amount": 2650
+      },
+      {
+        "name": "蘭蔻 超未來肌因賦活露 100ml",
+        "amount": 5880
+      },
+      {
+        "name": "酒類會員 95 折",
+        "amount": -132
+      },
+      {
+        "name": "美妝保養品牌週 88 折",
+        "amount": -706
+      }
+    ],
+    "promo_check": [
+      {
+        "name": "週年慶 單筆滿額折",
+        "reached": false,
+        "gap": 4120,
+        "eligible_amount": 5880
+      }
+    ],
+    "mock": true
+  },
+  "source": {
+    "title": "最新活動",
+    "url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "cited_text": "週年慶限定 解鎖徽章點亮「飛富吉貴」好運，享 1,000 RICH POINT！2026.10.01 – 2026.10.31"
+  }
+}

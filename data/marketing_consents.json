@@ -1,0 +1,5 @@
+{
+  "mock-user-a": true,
+  "mock-user-b": false,
+  "mock-user-c": true
+}

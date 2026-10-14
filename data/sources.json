@@ -1,0 +1,119 @@
+[
+  {
+    "id": "src-onlineshopping",
+    "type": "promo",
+    "title": "昇恆昌免稅購物網（線上預購、機場提貨）",
+    "url": "https://www.everrich-group.com/onlineshopping?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "官網頁面列出出境前 45 天開始預訂、全台機場提貨點與「加碼 5% 回饋無上限」；未列預購截止時間與退換貨規定。"
+  },
+  {
+    "id": "src-tohome",
+    "type": "promo",
+    "title": "昇恆昌宅配網",
+    "url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "官網頁面說明不用出國也能享免稅價、萬件商品送到家、免付費專線 0800-098-668；未列運費、免運門檻與退換貨細節。"
+  },
+  {
+    "id": "src-events",
+    "type": "promo",
+    "title": "最新活動",
+    "url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "活動列表入口；2026-10-14 檢查時有週年慶徽章任務、潮台由我不設限、旅程補給站等活動。各活動細節以個別活動頁為準。"
+  },
+  {
+    "id": "src-event-anniv",
+    "type": "promo",
+    "title": "週年慶限定 解鎖徽章享 1,000 RICH POINT",
+    "url": "https://www.everrich-group.com/events/Members/39827?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "活動期間 2026-10-01 至 2026-10-31，完成 App 周慶徽章任務可得 1,000 RICH POINT；指定消費任務門檻未在頁面列出。"
+  },
+  {
+    "id": "src-event-chaotai",
+    "type": "promo",
+    "title": "潮台由我不設限",
+    "url": "https://www.everrich-group.com/events/promotion/39796?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "活動期間 2026-09-22 至 2026-10-31；指定區域消費達一定金額享現金折抵或購物金回饋，頁面未列門檻金額。"
+  },
+  {
+    "id": "src-brand",
+    "type": "product",
+    "title": "品牌導覽",
+    "url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "品牌清單入口，只供核對品牌是否在昇恆昌販售；不提供價格。"
+  },
+  {
+    "id": "src-richclub",
+    "type": "faq",
+    "title": "RICHCLUB 會員",
+    "url": "https://www.everrich-group.com/RichClub?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "會員首頁：點數折現金、點數兌換、點數加價購三種用法；行動會員卡可在昇恆昌、澎坊、金坊各據點累積點數。"
+  },
+  {
+    "id": "src-richclub-benefits",
+    "type": "faq",
+    "title": "RICHCLUB 會員禮遇",
+    "url": "https://www.everrich-group.com/RichClub/membership-benefits?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "四個等級：初心者、探索者、創造者、領航者；每 100 元累積 3 至 5 點、入會與升等禮、購物優惠券與機場尊榮服務；頁面未列升等條件、點數效期與折抵比例。"
+  },
+  {
+    "id": "src-destination",
+    "type": "faq",
+    "title": "門市據點",
+    "url": "https://www.everrich-group.com/destination?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "機場：桃園第一、第二航廈、松山、臺中、高雄；市區：內湖旗艦店、金湖廣場；港口：基隆港、金門港旅運中心。頁面未列營業時間。"
+  },
+  {
+    "id": "src-service-center",
+    "type": "faq",
+    "title": "商品服務中心",
+    "url": "https://www.everrich-group.com/service-center?lang=zh_TW",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "航班異動可申請提貨更改；提貨需登機證或登船證、護照、提貨聯；桃園機場服務專線 0800-055-556、免付費專線 0800-098-668。"
+  },
+  {
+    "id": "src-customs-allowance",
+    "type": "faq",
+    "title": "入境旅客攜帶行李物品免稅規定（財政部關務署）",
+    "url": "https://web.customs.gov.tw/taichung/singlehtml/3148",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "關務署頁面：一般行李物品完稅價格總值新臺幣 3 萬 5 千元以下免稅；酒類 1.5 公升（年滿 18 歲）、捲菸 200 支等（年滿 20 歲）。"
+  },
+  {
+    "id": "src-customs-tobacco-alcohol",
+    "type": "faq",
+    "title": "入境旅客菸酒免稅數量與超量處理（財政部關務署）",
+    "url": "https://web.customs.gov.tw/taichung/singlehtml/62f659940021491b93b2ab37406f6ed7",
+    "enabled": true,
+    "last_checked": "2026-10-14",
+    "note": "關務署頁面：免稅數量含在免稅商店購買的菸酒；超過免稅數量應走紅線檯申報，未申報將沒入並裁罰。"
+  },
+  {
+    "id": "src-card-taishin",
+    "type": "promo",
+    "title": "昇恆昌聯名卡優惠（發卡銀行公告）",
+    "url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "enabled": false,
+    "last_checked": "2026-10-14",
+    "note": "發卡銀行新聞稿：免稅商品再 9 折起、昇恆昌指定店最高 3% 回饋；只供追溯，不列入搜尋範圍。"
+  }
+]

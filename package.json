@@ -1,0 +1,29 @@
+{
+  "name": "everrich-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others --names server,web \"npm run dev --workspace server\" \"npm run dev --workspace web\"",
+    "typecheck": "npm run typecheck --workspaces",
+    "build": "npm run typecheck && npm run build --workspace web",
+    "start": "npm run start --workspace server",
+    "test:tools": "npm run test:tools --workspace server",
+    "chat": "npm run chat --workspace server --",
+    "eval": "npm run eval --workspace server --",
+    "eval:demo": "npm run eval:demo --workspace server --",
+    "chat:demo": "npm run chat --workspace server -- --demo"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "concurrently": "^10.0.5",
+    "typescript": "^7.0.2"
+  }
+}

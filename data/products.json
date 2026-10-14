@@ -1,0 +1,614 @@
+[
+  {
+    "id": "prod-skii-essence-230",
+    "name": "SK-II 青春露 230ml",
+    "brand": "SK-II",
+    "category": "美妝保養",
+    "price": 6250,
+    "home_price": 6900,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "230ml",
+    "alcohol_ml": null,
+    "tags": [
+      "保濕",
+      "送禮",
+      "熱銷"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-lancome-serum-100",
+    "name": "蘭蔻 超未來肌因賦活露 100ml",
+    "brand": "Lancôme",
+    "category": "美妝保養",
+    "price": 5880,
+    "home_price": 6500,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "精華液",
+      "修護",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-esteelauder-anr-100",
+    "name": "雅詩蘭黛 特潤超導全方位修護露 100ml",
+    "brand": "Estée Lauder",
+    "category": "美妝保養",
+    "price": 5500,
+    "home_price": 6100,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "精華液",
+      "抗老",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-lamer-cream-60",
+    "name": "LA MER 經典乳霜 60ml",
+    "brand": "LA MER",
+    "category": "美妝保養",
+    "price": 11800,
+    "home_price": 13000,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "60ml",
+    "alcohol_ml": null,
+    "tags": [
+      "乳霜",
+      "精品保養",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-shiseido-ultimune-100",
+    "name": "資生堂 紅妍超導循環肌活露 100ml",
+    "brand": "Shiseido",
+    "category": "美妝保養",
+    "price": 4300,
+    "home_price": 4800,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "精華液",
+      "保濕"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-kiehls-cream-125",
+    "name": "Kiehl's 冰河醣蛋白保濕霜 125ml",
+    "brand": "Kiehl's",
+    "category": "美妝保養",
+    "price": 1750,
+    "home_price": 1950,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "125ml",
+    "alcohol_ml": null,
+    "tags": [
+      "保濕",
+      "男女適用",
+      "平價"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-chanel-no5-100",
+    "name": "CHANEL N°5 香水 100ml",
+    "brand": "CHANEL",
+    "category": "香水",
+    "price": 6800,
+    "home_price": 7600,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "花香",
+      "女香",
+      "經典",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-dior-jadore-50",
+    "name": "Dior J'adore 真我淡香精 50ml",
+    "brand": "Dior",
+    "category": "香水",
+    "price": 4650,
+    "home_price": 5200,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "50ml",
+    "alcohol_ml": null,
+    "tags": [
+      "花香",
+      "女香",
+      "經典",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-jomalone-pear-100",
+    "name": "Jo Malone 英國梨與小蒼蘭古龍水 100ml",
+    "brand": "Jo Malone London",
+    "category": "香水",
+    "price": 5300,
+    "home_price": 5900,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "花香",
+      "果香",
+      "清新",
+      "女香",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-dior-sauvage-100",
+    "name": "Dior Sauvage 淡香水 100ml",
+    "brand": "Dior",
+    "category": "香水",
+    "price": 4200,
+    "home_price": 4700,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "男香",
+      "清新",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-jomalone-woodsage-100",
+    "name": "Jo Malone 鼠尾草與海鹽古龍水 100ml",
+    "brand": "Jo Malone London",
+    "category": "香水",
+    "price": 5300,
+    "home_price": 5900,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "100ml",
+    "alcohol_ml": null,
+    "tags": [
+      "中性",
+      "清新",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-macallan-12-700",
+    "name": "麥卡倫 12 年雪莉桶 700ml",
+    "brand": "The Macallan",
+    "category": "酒類",
+    "price": 2650,
+    "home_price": null,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree"
+    ],
+    "size_label": "700ml",
+    "alcohol_ml": 700,
+    "tags": [
+      "威士忌",
+      "單一麥芽",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。酒類只在免稅店販售，宅配網不提供。"
+  },
+  {
+    "id": "prod-kavalan-solist-700",
+    "name": "噶瑪蘭 經典獨奏雪莉桶 700ml",
+    "brand": "KAVALAN",
+    "category": "酒類",
+    "price": 4800,
+    "home_price": null,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree"
+    ],
+    "size_label": "700ml",
+    "alcohol_ml": 700,
+    "tags": [
+      "威士忌",
+      "台灣品牌",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。酒類只在免稅店販售，宅配網不提供。"
+  },
+  {
+    "id": "prod-hibiki-harmony-700",
+    "name": "響 和風醇韻 700ml",
+    "brand": "HIBIKI",
+    "category": "酒類",
+    "price": 2980,
+    "home_price": null,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree"
+    ],
+    "size_label": "700ml",
+    "alcohol_ml": 700,
+    "tags": [
+      "威士忌",
+      "調和",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。酒類只在免稅店販售，宅配網不提供。"
+  },
+  {
+    "id": "prod-moet-brut-750",
+    "name": "酩悅 經典香檳 750ml",
+    "brand": "Moët & Chandon",
+    "category": "酒類",
+    "price": 1650,
+    "home_price": null,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree"
+    ],
+    "size_label": "750ml",
+    "alcohol_ml": 750,
+    "tags": [
+      "香檳",
+      "慶祝"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。酒類只在免稅店販售，宅配網不提供。"
+  },
+  {
+    "id": "prod-coach-wallet",
+    "name": "COACH 經典皮革長夾",
+    "brand": "COACH",
+    "category": "精品配件",
+    "price": 6900,
+    "home_price": 7600,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "單件",
+    "alcohol_ml": null,
+    "tags": [
+      "皮件",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-rayban-aviator",
+    "name": "Ray-Ban 經典飛行員太陽眼鏡",
+    "brand": "Ray-Ban",
+    "category": "精品配件",
+    "price": 4800,
+    "home_price": 5300,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "單件",
+    "alcohol_ml": null,
+    "tags": [
+      "眼鏡",
+      "旅行"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-sunnyhills-pineapple-10",
+    "name": "微熱山丘 鳳梨酥禮盒 10 入",
+    "brand": "SunnyHills",
+    "category": "食品伴手禮",
+    "price": 450,
+    "home_price": 480,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "10 入",
+    "alcohol_ml": null,
+    "tags": [
+      "伴手禮",
+      "台灣品牌",
+      "送長輩"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-alishan-oolong-gift",
+    "name": "阿里山高山烏龍茶禮盒 150g×2",
+    "brand": "台灣茶",
+    "category": "食品伴手禮",
+    "price": 1280,
+    "home_price": 1380,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "150g×2",
+    "alcohol_ml": null,
+    "tags": [
+      "伴手禮",
+      "台灣品牌",
+      "送長輩",
+      "茶"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  },
+  {
+    "id": "prod-godiva-gold-15",
+    "name": "GODIVA 金裝巧克力禮盒 15 入",
+    "brand": "GODIVA",
+    "category": "食品伴手禮",
+    "price": 1180,
+    "home_price": 1300,
+    "price_kind": "mock",
+    "channels": [
+      "dutyfree",
+      "home"
+    ],
+    "size_label": "15 入",
+    "alcohol_ml": null,
+    "tags": [
+      "巧克力",
+      "送禮"
+    ],
+    "source_id": "src-brand",
+    "source_url": "https://www.everrich-group.com/brand/directory?lang=zh_TW",
+    "last_checked": "2026-10-14",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "price",
+      "home_price",
+      "tags"
+    ],
+    "note": "【展示假資料】免稅價與宅配價為虛構測試價格，不是昇恆昌實際售價；來源頁只供日後核對品牌與通路。"
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "policy": {
+    "max_offers_per_session": 2,
+    "min_turns_between": 2,
+    "suppress_segments": [
+      "unhappy"
+    ]
+  },
+  "rules": [
+    {
+      "id": "care-unhappy",
+      "title": "不滿意關懷",
+      "type": "service",
+      "when_all": [
+        "unhappy"
+      ],
+      "when_none": [],
+      "priority": 100,
+      "say": "如果需要，我可以幫你轉專人，或一起確認訂單哪裡有問題。",
+      "enabled": true
+    },
+    {
+      "id": "liquor-allowance",
+      "title": "酒類入境額度提醒",
+      "type": "service",
+      "when_all": [
+        "liquor_buyer"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 95,
+      "say": "提醒一下，入境每人酒類免稅 1.5 公升，700ml 的酒大約兩瓶就到上限。",
+      "enabled": true
+    },
+    {
+      "id": "points-expiring",
+      "title": "點數到期前提醒折抵",
+      "type": "retention",
+      "when_all": [
+        "points_expiring"
+      ],
+      "when_none": [],
+      "priority": 90,
+      "say": "你有點數快到期了，可以先在宅配網或這趟購物用點數折抵，不要浪費。",
+      "enabled": true
+    },
+    {
+      "id": "preorder-trip-soon",
+      "title": "近期出國提醒預購",
+      "type": "offer",
+      "when_all": [
+        "trip_soon"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 85,
+      "say": "出發前先在免稅購物網預購，出境當天到機場提貨就好，不用排隊挑貨。",
+      "enabled": true
+    },
+    {
+      "id": "home-trip-far",
+      "title": "出發日還遠，先看宅配網",
+      "type": "offer",
+      "when_all": [
+        "trip_far"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 80,
+      "say": "離出發還有一段時間，預購要出發前 45 天才開放；急著用的話可以先看宅配網。",
+      "enabled": true
+    },
+    {
+      "id": "join-member",
+      "title": "非會員入會禮",
+      "type": "acquisition",
+      "when_all": [
+        "non_member"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 78,
+      "say": "加入 RICHCLUB 會員不用門檻，入會就有 100 元優惠券，消費還能累積點數。",
+      "enabled": true
+    },
+    {
+      "id": "beauty-week",
+      "title": "美妝客推品牌週",
+      "type": "offer",
+      "when_all": [
+        "beauty_lover"
+      ],
+      "when_none": [
+        "unhappy",
+        "home_shopper"
+      ],
+      "priority": 75,
+      "say": "美妝保養品牌週有指定品牌 88 折，買保養品可以一起比較。",
+      "enabled": true
+    },
+    {
+      "id": "gift-souvenir",
+      "title": "送禮推伴手禮組合",
+      "type": "offer",
+      "when_all": [
+        "gift_shopper",
+        "souvenir"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 70,
+      "say": "送長輩的話，台灣茶和鳳梨酥禮盒很受歡迎，也有台灣品牌滿額折。",
+      "enabled": true
+    },
+    {
+      "id": "luxury-card",
+      "title": "精品客推聯名卡",
+      "type": "offer",
+      "when_all": [
+        "luxury"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 65,
+      "say": "買精品的話，用昇恆昌聯名卡結帳免稅商品再 9 折起，可以一起算算看。",
+      "enabled": true
+    },
+    {
+      "id": "family-allowance",
+      "title": "家庭出遊額度提醒",
+      "type": "service",
+      "when_all": [
+        "family_trip",
+        "liquor_buyer"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 60,
+      "say": "同行的每位大人各有自己的菸酒免稅額度，買酒時可以分開計算。",
+      "enabled": true
+    },
+    {
+      "id": "home-delivery",
+      "title": "宅配族推宅配網優惠",
+      "type": "offer",
+      "when_all": [
+        "home_shopper"
+      ],
+      "when_none": [
+        "unhappy"
+      ],
+      "priority": 55,
+      "say": "寄到家的話，宅配網美妝香氛滿 3,000 折 300，也可以用點數折抵。",
+      "enabled": true
+    }
+  ]
+}

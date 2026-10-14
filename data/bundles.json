@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "mock-bundle-01",
+    "product_id": "prod-skii-essence-230",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 5625,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-02",
+    "product_id": "prod-skii-essence-230",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 5500,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-03",
+    "product_id": "prod-skii-essence-230",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 6812,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-04",
+    "product_id": "prod-skii-essence-230",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 6600,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-05",
+    "product_id": "prod-lancome-serum-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 5292,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-06",
+    "product_id": "prod-lancome-serum-100",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 5174,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-07",
+    "product_id": "prod-lancome-serum-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 6412,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-08",
+    "product_id": "prod-lancome-serum-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 6200,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-09",
+    "product_id": "prod-esteelauder-anr-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4950,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-10",
+    "product_id": "prod-esteelauder-anr-100",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 4840,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-11",
+    "product_id": "prod-esteelauder-anr-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 6012,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-12",
+    "product_id": "prod-esteelauder-anr-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 5800,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-13",
+    "product_id": "prod-lamer-cream-60",
+    "promo_id": "promo-anniv-threshold",
+    "channel": "dutyfree",
+    "bundle_price": 10800,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-10-31",
+    "source_id": "src-event-anniv",
+    "source_url": "https://www.everrich-group.com/events/Members/39827?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-14",
+    "product_id": "prod-lamer-cream-60",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 10620,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-15",
+    "product_id": "prod-lamer-cream-60",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 10384,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-16",
+    "product_id": "prod-lamer-cream-60",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 12912,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-17",
+    "product_id": "prod-lamer-cream-60",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 12700,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-18",
+    "product_id": "prod-shiseido-ultimune-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 3870,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-19",
+    "product_id": "prod-shiseido-ultimune-100",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 3784,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-20",
+    "product_id": "prod-shiseido-ultimune-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 4712,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-21",
+    "product_id": "prod-shiseido-ultimune-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 4500,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-22",
+    "product_id": "prod-kiehls-cream-125",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 1575,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-23",
+    "product_id": "prod-kiehls-cream-125",
+    "promo_id": "promo-beauty-week",
+    "channel": "dutyfree",
+    "bundle_price": 1540,
+    "gift": null,
+    "valid_from": "2026-10-10",
+    "valid_to": "2026-11-10",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-24",
+    "product_id": "prod-kiehls-cream-125",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 1862,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-25",
+    "product_id": "prod-chanel-no5-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 6120,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-26",
+    "product_id": "prod-chanel-no5-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 7512,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-27",
+    "product_id": "prod-chanel-no5-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 7300,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-28",
+    "product_id": "prod-dior-jadore-50",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4185,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-29",
+    "product_id": "prod-dior-jadore-50",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 5112,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-30",
+    "product_id": "prod-dior-jadore-50",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 4900,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-31",
+    "product_id": "prod-jomalone-pear-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4770,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-32",
+    "product_id": "prod-jomalone-pear-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 5812,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-33",
+    "product_id": "prod-jomalone-pear-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 5600,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-34",
+    "product_id": "prod-dior-sauvage-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 3780,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-35",
+    "product_id": "prod-dior-sauvage-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 4612,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-36",
+    "product_id": "prod-dior-sauvage-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 4400,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-37",
+    "product_id": "prod-jomalone-woodsage-100",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4770,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-38",
+    "product_id": "prod-jomalone-woodsage-100",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 5812,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-39",
+    "product_id": "prod-jomalone-woodsage-100",
+    "promo_id": "promo-home-beauty",
+    "channel": "home",
+    "bundle_price": 5600,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-40",
+    "product_id": "prod-macallan-12-700",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 2385,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-41",
+    "product_id": "prod-macallan-12-700",
+    "promo_id": "promo-liquor-member",
+    "channel": "dutyfree",
+    "bundle_price": 2518,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-12-31",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-42",
+    "product_id": "prod-kavalan-solist-700",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4320,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-43",
+    "product_id": "prod-kavalan-solist-700",
+    "promo_id": "promo-liquor-member",
+    "channel": "dutyfree",
+    "bundle_price": 4560,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-12-31",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-44",
+    "product_id": "prod-hibiki-harmony-700",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 2682,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-45",
+    "product_id": "prod-hibiki-harmony-700",
+    "promo_id": "promo-liquor-member",
+    "channel": "dutyfree",
+    "bundle_price": 2831,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-12-31",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-46",
+    "product_id": "prod-moet-brut-750",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 1485,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-47",
+    "product_id": "prod-moet-brut-750",
+    "promo_id": "promo-liquor-member",
+    "channel": "dutyfree",
+    "bundle_price": 1568,
+    "gift": null,
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-12-31",
+    "source_id": "src-events",
+    "source_url": "https://www.everrich-group.com/events?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-48",
+    "product_id": "prod-coach-wallet",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 6210,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-49",
+    "product_id": "prod-coach-wallet",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 7512,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-50",
+    "product_id": "prod-rayban-aviator",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 4320,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-51",
+    "product_id": "prod-rayban-aviator",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 5212,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-52",
+    "product_id": "prod-sunnyhills-pineapple-10",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 405,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-53",
+    "product_id": "prod-alishan-oolong-gift",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 1152,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-54",
+    "product_id": "prod-alishan-oolong-gift",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 1292,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-55",
+    "product_id": "prod-godiva-gold-15",
+    "promo_id": "promo-card-cobrand",
+    "channel": "dutyfree",
+    "bundle_price": 1062,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-card-taishin",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006688/",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  },
+  {
+    "id": "mock-bundle-56",
+    "product_id": "prod-godiva-gold-15",
+    "promo_id": "promo-home-first",
+    "channel": "home",
+    "bundle_price": 1212,
+    "gift": null,
+    "valid_from": null,
+    "valid_to": null,
+    "source_id": "src-tohome",
+    "source_url": "https://www.everrich-group.com/tohome?lang=zh_TW",
+    "verified": false,
+    "mock": true,
+    "mock_fields": [
+      "product_id",
+      "promo_id",
+      "bundle_price"
+    ],
+    "unknown_fields": [
+      "valid_from",
+      "valid_to"
+    ],
+    "note": "【展示假資料】組合優惠價由商品展示價格套用優惠規則計算，不是官方報價；實際以門市結帳為準。"
+  }
+]

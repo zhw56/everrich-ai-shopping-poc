@@ -1,0 +1,13 @@
+{
+  "max_tool_calls": 6,
+  "max_agents": 3,
+  "agent_timeout_seconds": 15,
+  "daily_chat_limit": 300,
+  "ip_chat_limit": 20,
+  "model_orchestrator": "claude-sonnet-5",
+  "model_agent": "claude-haiku-4-5-20251001",
+  "share_base_url": "",
+  "github_repo": "",
+  "github_branch": "main",
+  "profile_enabled": true
+}

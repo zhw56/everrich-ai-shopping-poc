@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+coverage/
+*.tsbuildinfo
+
+# T15 客戶畫像執行期資料（個資，不進 GitHub）
+data/runtime/
