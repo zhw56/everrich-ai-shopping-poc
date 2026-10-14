@@ -1,3 +1,4 @@
+import { loadProducts, loadUsers } from '../data.js';
 import type { ToolResult } from '../types.js';
 import { marketingConsentOf } from './consent.js';
 import { applyPatches, type AttrPatch } from './merge.js';
@@ -8,7 +9,20 @@ export function syncSession(p: Profile, session: { verified: boolean; user_id: s
   if (session.verified && session.user_id && p.user_id !== session.user_id) {
     p.user_id = session.user_id;
     p.marketing_consent = marketingConsentOf(session.user_id);
-    applyPatches(p, [{ key: 'is_member', value: true, source: 'system' }], '');
+    const patches: AttrPatch[] = [{ key: 'is_member', value: true, source: 'system' }];
+    // 驗證後直接帶入會員資料（等級、下一趟出發日、點數到期、常買商品），不必等主控剛好呼叫 get_user_profile，
+    // 否則同一位會員在不同對話的分眾會不一致（例如 S6 只查訂單時就沒有「高等級會員」「近期出國」）
+    try {
+      const u: any = loadUsers().users.find((x: any) => x.id === session.user_id);
+      if (u?.member_tier) patches.push({ key: 'member_tier', value: u.member_tier, source: 'system' });
+      if (u?.next_trip?.date) patches.push({ key: 'next_trip', value: u.next_trip.date, source: 'system' });
+      if (u?.points_expiring > 0 && u?.points_expire_date) patches.push({ key: 'points_expire', value: u.points_expire_date, source: 'system' });
+      const fav = u?.favorite_product_id ? loadProducts().find((x) => x.id === u.favorite_product_id) : null;
+      if (fav) patches.push({ key: 'favorite_product', value: fav.name, source: 'system' });
+    } catch {
+      /* 會員檔讀不到時只標記為會員 */
+    }
+    applyPatches(p, patches, '');
   }
 }
 

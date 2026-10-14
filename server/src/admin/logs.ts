@@ -76,7 +76,8 @@ export function liveStats() {
   const handoff = done.filter((l) => (m(l).tools ?? []).includes('handoff_to_human'));
   const searchTurns = done.filter((l) => (m(l).tools ?? []).some((t: string) => t === 'search_official_web' || t === 'search_kb'));
   const ms = done.map((l) => Number(m(l).ms) || 0).sort((a, b) => a - b);
-  const pct = (p: number) => (ms.length ? ms[Math.min(ms.length - 1, Math.floor((ms.length - 1) * p))] : null);
+  // 最近排名法（nearest-rank）：第 ceil(p×n) 筆；舊寫法 floor((n-1)×p) 在筆數少時會把 P95 算成第 4 慢而不是最慢
+  const pct = (p: number) => (ms.length ? ms[Math.min(ms.length - 1, Math.max(0, Math.ceil(ms.length * p) - 1))] : null);
   const ratio = (a: number, b: number) => (b ? Math.round((a / b) * 1000) / 10 : null);
   return {
     turns: logs.length,

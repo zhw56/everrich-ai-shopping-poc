@@ -22,5 +22,6 @@ export const MOCK_DASHBOARD = {
     ],
   },
   system: { first_token_p50_s: 1.4, first_token_p95_s: 3.8, api_error_rate: 0.6, search_failure_rate: 3.1, zero_search_ratio: 0.4 },
-  cost: { today_usd: 18.6, daily_budget_usd: 30, per_conversation_usd: 0.0081, per_conversation_7d_avg_usd: 0.0079 },
+  // 成本依 Claude Sonnet 5（主控）＋ Haiku 4.5（專員）定價與每則對話約 3 輪估算：今日花費 ＝ 今日對話數 × 每則成本
+  cost: { today_usd: 104.2, daily_budget_usd: 150, per_conversation_usd: 0.045, per_conversation_7d_avg_usd: 0.043 },
 };

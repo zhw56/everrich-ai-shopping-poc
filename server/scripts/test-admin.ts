@@ -129,3 +129,12 @@ test('HTTP：區網裝置唯讀、本機可寫、ADMIN_TOKEN 可寫', async () =
     await new Promise<void>((r, j) => server.close((e) => (e ? j(e) : r())));
   }
 });
+
+test('回應時間 P50／P95 用最近排名法（5 筆時 P95 是最慢那筆）', () => {
+  clearLogs();
+  for (const ms of [1701, 2623, 2778, 6209, 14925]) recordTurn('s-' + ms, 'q', 'a', { tools: [], grounded: false, ms });
+  const s = liveStats();
+  assert.equal(s.turn_ms_p50, 2778);
+  assert.equal(s.turn_ms_p95, 14925);
+  clearLogs();
+});

@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import { audience } from '../src/admin/profiles.js';
 import { disclaimerFilter, pricedWithoutSource } from '../src/orchestrator/guard.js';
 import { applyPatches } from '../src/profile/merge.js';
+import { syncSession } from '../src/profile/observe.js';
 import { defaultNba, pickForConversation, validateNba } from '../src/profile/nba.js';
 import { segmentsOf } from '../src/profile/segments.js';
 import { _resetProfiles, ensureProfile, newProfile, saveProfile } from '../src/profile/store.js';
@@ -113,4 +114,16 @@ test('金額都是前面講過的，不再補「查不到來源」提醒', () =>
   assert.equal(pricedWithoutSource('蘭蔻免稅價 5,880 元', 0, '…免稅價 5,880 元…'), false);
   assert.equal(pricedWithoutSource('最新折扣是 300 元。', 0, '免稅價 5,880 元'), true);
   assert.equal(pricedWithoutSource('最新折扣是 300 元。', 1), false);
+});
+
+test('會員驗證後直接帶入會員資料：會員 C 不用查個人資料也屬於高等級會員與近期出國', () => {
+  const p = P();
+  syncSession(p, { verified: true, user_id: 'mock-user-c' });
+  assert.equal(p.attributes.member_tier?.value, '領航者');
+  assert.equal(p.attributes.next_trip?.value, '2026-10-23');
+  const seg = segmentsOf(p);
+  assert.ok(seg.includes('high_tier') && seg.includes('trip_soon'), seg.join(','));
+  const b = P();
+  syncSession(b, { verified: true, user_id: 'mock-user-b' });
+  assert.ok(segmentsOf(b).includes('points_expiring') && segmentsOf(b).includes('trip_far'));
 });
