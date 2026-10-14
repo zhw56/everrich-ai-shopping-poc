@@ -115,5 +115,59 @@
     "enabled": false,
     "last_checked": "2026-10-14",
     "note": "發卡銀行新聞稿：免稅商品再 9 折起、昇恆昌指定店最高 3% 回饋；只供追溯，不列入搜尋範圍。"
+  },
+  {
+    "id": "src-dfo-flow",
+    "type": "faq",
+    "title": "昇恆昌免稅購物網｜購物流程",
+    "url": "https://www.everrich.com/tw/shopping-flow",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：會員註冊、各機場預訂時間（起飛前 45 天至最晚 20／24／48／72 小時）、付款方式、機場提貨文件。"
+  },
+  {
+    "id": "src-dfo-faq",
+    "type": "faq",
+    "title": "昇恆昌免稅購物網｜常見問題",
+    "url": "https://www.everrich.com/tw/faq",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：會員、訂單修改取消、發票、使用資格、點數累積與折抵、提貨與代領、颱風天、逾期未提貨、退換貨、購物金。"
+  },
+  {
+    "id": "src-dfo-precautions",
+    "type": "faq",
+    "title": "昇恆昌免稅購物網｜購物注意事項",
+    "url": "https://www.everrich.com/tw/shopping-precautions",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：預訂 5% 回饋券（限內湖旗艦店使用）、提貨方式（起飛前 90 分鐘）、退貨須知、颱風天提貨；數量限制與分期說明為圖片未擷取。"
+  },
+  {
+    "id": "src-home-flow",
+    "type": "faq",
+    "title": "昇恆昌宅配網｜購物流程",
+    "url": "https://www.everrichtohome.com/shopping-flow",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：付款方式與分期、本島／離島／超商運費與免運門檻、出貨天數、內湖旗艦店自取與 5% 回饋券、購物金。"
+  },
+  {
+    "id": "src-home-faq",
+    "type": "faq",
+    "title": "昇恆昌宅配網｜常見問題",
+    "url": "https://www.everrichtohome.com/tw/faq",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：兩站共用帳號、沒出國也能買免稅品、運費、不提供貨到付款、自取時間與代領、取貨期限 14 天、七天鑑賞期。"
+  },
+  {
+    "id": "src-home-refund",
+    "type": "faq",
+    "title": "昇恆昌宅配網｜退貨須知",
+    "url": "https://www.everrichtohome.com/refund-notice",
+    "enabled": true,
+    "last_checked": "2026-10-15",
+    "note": "2026-10-15 讀取：七天鑑賞期起算方式、不適用品項、不提供換貨、退貨後購物金與點數不返還、內湖自取不退換。"
   }
 ]

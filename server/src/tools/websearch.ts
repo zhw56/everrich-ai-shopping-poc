@@ -3,18 +3,18 @@ import type { Source } from '../types.js';
 
 export type AllowedEntry = { source_id: string; hostname: string; pathname: string; domain_entry: string };
 
-/** 核准的官方網域：昇恆昌官網與財政部關務署（通關規定）；子網域須是真正的子網域 */
-export const OFFICIAL_DOMAINS = ['everrich-group.com', 'customs.gov.tw'];
+/** 核准的官方網域：昇恆昌集團官網、免稅購物網、宅配網與財政部關務署（通關規定）；子網域須是真正的子網域 */
+export const OFFICIAL_DOMAINS = ['everrich-group.com', 'everrich.com', 'everrichtohome.com', 'customs.gov.tw'];
 /** 只供追溯、不列入搜尋的合作夥伴網域（例如聯名卡發卡銀行） */
 export const PARTNER_DOMAINS = ['taishinbank.com.tw'];
 const under = (h: string, d: string) => h === d || h.endsWith('.' + d);
 export const isOfficialHost = (h: string) => OFFICIAL_DOMAINS.some((d) => under(h, d));
 export const isPartnerHost = (h: string) => PARTNER_DOMAINS.some((d) => under(h, d));
 /**
- * 整站搜尋的官方網域（2026-10-15 使用者決定）：昇恆昌官網只要有任一啟用來源，就搜尋整個 everrich-group.com，
+ * 整站搜尋的官方網域（2026-10-15 使用者決定）：昇恆昌三個官方網站（集團官網、免稅購物網、宅配網）只要各自有任一啟用來源，就搜尋該網站整站，
  * 不再只限 sources.json 列的路徑；關務署仍只搜列出的路徑。全部停用時一樣回 NO_ENABLED_SOURCES。
  */
-export const WHOLE_SITE_DOMAINS = ['everrich-group.com'];
+export const WHOLE_SITE_DOMAINS = ['everrich-group.com', 'everrich.com', 'everrichtohome.com'];
 const wholeSiteOf = (h: string) => WHOLE_SITE_DOMAINS.find((d) => under(h, d));
 
 /** 依 data/README.md 規則：只取啟用、HTTPS、無帳密、預設 port、核准官方網域的 hostname＋pathname */

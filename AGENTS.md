@@ -64,8 +64,8 @@ everrich-demo/
 - 模型名稱與 API 金鑰不寫死在程式裡：後台「系統參數」有填的值優先（模型存 `data/settings.json`，金鑰以 ADMIN_TOKEN 加密存 `data/secrets.enc.json`），留空才用環境變數；一律透過 `config.modelOrchestrator`、`config.modelAgent`、`config.anthropicApiKey` 取用（每次讀取即時生效）
 - **模型供應商（T16）**：`server/src/llm/` 統一取得模型 client，主控、專員、畫像抽取、評分員一律用 `getLlm()`、`modelFor('orchestrator'|'agent')`，不要直接 `new Anthropic()`。供應商為 `anthropic`（正式展示）或 `inception`（Mercury，開發測試省錢，經轉接層轉成 OpenAI 相容格式）；優先序：環境變數 `LLM_PROVIDER` ＞後台 `llm_provider` ＞ anthropic。
 - **省錢規則：AI 助理開發時跑 chat、eval、replay 一律用 Inception**（本機 `.env` 已設 `LLM_PROVIDER=inception`）。只有使用者要求，或正式展示前的最後確認，才用 Claude 跑（`LLM_PROVIDER=anthropic npm run eval:demo`）。Inception 的測試結果只代表流程與程式正確，不代表 Claude 的回答品質。
-- 限定來源搜尋：固定用 Claude 內建網頁搜尋（不受供應商切換影響），結果快取 24 小時於 `data/runtime/search-cache.json`；工具類型 `web_search_20250305`，`max_uses: 3`；`allowed_domains` 從 `data/sources.json` 的啟用來源產生：昇恆昌官網只要有啟用來源就搜尋整站 `everrich-group.com`（2026-10-15 使用者決定），關務署仍只用 `hostname + pathname`。
-- 搜尋來源只允許 HTTPS 的 `everrich-group.com`（昇恆昌官網）與 `customs.gov.tw`（關務署通關規定）或其真正子網域；`taishinbank.com.tw`（聯名卡發卡銀行）只供追溯、不可啟用為搜尋來源。搜尋結果另比對：官網整站任何 HTTPS 頁面可引用，關務署須完整 hostname／pathname，停用、偽子網域與外站跳轉不得使用。無啟用來源時回 `NO_ENABLED_SOURCES`，禁止退回不受限搜尋；完整規則見 `data/README.md`。
+- 限定來源搜尋：固定用 Claude 內建網頁搜尋（不受供應商切換影響），結果快取 24 小時於 `data/runtime/search-cache.json`；工具類型 `web_search_20250305`，`max_uses: 3`；`allowed_domains` 從 `data/sources.json` 的啟用來源產生：昇恆昌三個官方網站（集團官網 `everrich-group.com`、免稅購物網 `everrich.com`、宅配網 `everrichtohome.com`）只要有啟用來源就搜尋整站（2026-10-15 使用者決定），關務署仍只用 `hostname + pathname`。
+- 搜尋來源只允許 HTTPS 的 `everrich-group.com`（昇恆昌集團官網）、`everrich.com`（免稅購物網）、`everrichtohome.com`（宅配網）與 `customs.gov.tw`（關務署通關規定）或其真正子網域；`taishinbank.com.tw`（聯名卡發卡銀行）只供追溯、不可啟用為搜尋來源。搜尋結果另比對：官網整站任何 HTTPS 頁面可引用，關務署須完整 hostname／pathname，停用、偽子網域與外站跳轉不得使用。無啟用來源時回 `NO_ENABLED_SOURCES`，禁止退回不受限搜尋；完整規則見 `data/README.md`。
 - 搜尋結果的引用（url、title、cited_text）要原樣保留，傳給前台顯示
 - 回應一律串流
 

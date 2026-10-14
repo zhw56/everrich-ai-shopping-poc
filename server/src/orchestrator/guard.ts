@@ -21,15 +21,18 @@ const OFF_TOPIC = /(股票|股市|個股|基金|加密貨幣|比特幣|天氣|�
 const HUMAN = /(真人|專人|人工客服|人工服務|客服人員|轉人工|轉接客服|找客服人員|真的人)/;
 /** 客訴、退貨退款 */
 const COMPLAINT = /(申訴|客訴|投訴|退費|退款|退錢|退貨|退還費用|檢舉)/;
+/** 只是詢問退換貨規定（可以退嗎、鑑賞期幾天），不是要辦退貨：先查知識庫回答，不直接轉真人 */
+const RETURN_POLICY = /(可以|可不可以|能不能|能否|怎麼|如何|規定|須知|流程|政策|幾天|多久).{0,6}(退貨|退換|退款)|(退貨|退換|退款).{0,8}(嗎|規定|須知|流程|政策|怎麼|幾天|多久)|鑑賞期/;
+const RETURN_REQUEST = /(我要|我想|幫我|申請|辦理|瑕疵|壞了|破損|有問題|客訴|申訴|投訴|檢舉)/;
 
 export const CONSECUTIVE_LIMIT = 2;
 
 /** 規定類問題（菸酒與行李免稅額度、液體、點數效期、預購期限）：模型常憑印象回答，程式強制第一步先查資料 */
-export const RULE_LOOKUP = /免稅額度|免稅數量|免稅限額|幾瓶|幾公升|公升|幾條菸|帶幾|液體|100\s*ml|點數.{0,6}(到期|過期|效期|期限)|預購.{0,8}(期限|最晚|多久|幾天)|提貨.{0,6}(要帶|證件|文件)|內湖|市區(店|門市|免稅)|門市.{0,6}(買|購|優惠|價格|提貨)/i;
+export const RULE_LOOKUP = /免稅額度|免稅數量|免稅限額|幾瓶|幾公升|公升|幾條菸|帶幾|液體|100\s*ml|點數.{0,6}(到期|過期|效期|期限)|預購.{0,8}(期限|最晚|多久|幾天)|提貨.{0,6}(要帶|證件|文件)|內湖|市區(店|門市|免稅)|門市.{0,6}(買|購|優惠|價格|提貨)|最晚|取消.{0,4}訂單|訂單.{0,6}(取消|修改)|代領|忘記提貨|回國.{0,4}(提貨|取貨|拿)|颱風|運費|免運|鑑賞期|退貨|退換|發票|分期|支付寶|付款方式|回饋券|購物金|自取|點數.{0,6}(折抵|入帳|怎麼用)|註冊/i;
 
 export function classifyMessage(message: string, unansweredStreak = 0): Guard {
   const m = message ?? '';
-  if (COMPLAINT.test(m)) return { kind: 'handoff', reason: 'complaint_refund' };
+  if (COMPLAINT.test(m) && !(RETURN_POLICY.test(m) && !RETURN_REQUEST.test(m))) return { kind: 'handoff', reason: 'complaint_refund' };
   if (HUMAN.test(m)) return { kind: 'handoff', reason: 'user_request' };
   if (COMPETITOR.test(m)) return { kind: 'out_of_scope', why: 'competitor' };
   if (INJECTION.test(m)) return { kind: 'out_of_scope', why: 'injection' };

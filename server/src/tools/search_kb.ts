@@ -20,7 +20,7 @@ export const searchKb: Tool<{ query: string; top_k?: number }> = {
       type: 'object',
       properties: {
         query: { type: 'string' },
-        top_k: { type: 'integer', minimum: 1, maximum: 5, description: '預設 2' },
+        top_k: { type: 'integer', minimum: 1, maximum: 5, description: '預設 3' },
       },
       required: ['query'],
     },
@@ -37,7 +37,7 @@ export const searchKb: Tool<{ query: string; top_k?: number }> = {
       })
       .filter((x) => x.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, i.top_k ?? 2);
+      .slice(0, i.top_k ?? 3);
     if (!scored.length) return { ok: false, error: 'KB_NO_MATCH' };
     const results = scored.map(({ kb, score }) => ({
       id: kb.id,

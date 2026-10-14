@@ -20,7 +20,7 @@ const isDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.tes
 const isDateOrNull = (value) => value === null || isDate(value);
 const CATEGORIES = ['美妝保養', '香水', '酒類', '精品配件', '食品伴手禮'];
 const TIERS = ['初心者', '探索者', '創造者', '領航者'];
-const OFFICIAL = ['everrich-group.com', 'customs.gov.tw'];
+const OFFICIAL = ['everrich-group.com', 'everrich.com', 'everrichtohome.com', 'customs.gov.tw'];
 const PARTNER = ['taishinbank.com.tw'];
 const under = (h, d) => h === d || h.endsWith('.' + d);
 function unique(rows, label) {

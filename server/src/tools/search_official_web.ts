@@ -8,7 +8,7 @@ import { buildAllowedDomains, filterCitations, searchDomains } from './websearch
 
 const SYSTEM = [
   '你是昇恆昌購物小幫手的查詢助理，只能根據搜尋到的昇恆昌官網（以及財政部關務署的通關規定頁）內容回答。',
-  '搜尋範圍已限定在昇恆昌官網（everrich-group.com）與關務署核准頁面，「RICHCLUB」「RICH POINT」等名稱是昇恆昌自己的會員制度與點數。',
+  '搜尋範圍已限定在昇恆昌官方網站（集團官網 everrich-group.com、免稅購物網 everrich.com、宅配網 everrichtohome.com）與關務署核准頁面，「RICHCLUB」「RICH POINT」等名稱是昇恆昌自己的會員制度與點數。',
   '只寫出搜尋結果中有原文依據的內容；查不到具體數字時，直接說官網搜尋結果沒有列出，不要換算或推測。',
   '使用台灣繁體中文與全形標點，200 字以內。',
   '找不到答案就直接說找不到，不要推測價格、優惠或活動期限。',
@@ -49,7 +49,7 @@ export const searchOfficialWeb: Tool<{ query: string }> = {
   definition: {
     name: 'search_official_web',
     description:
-      '在昇恆昌官網整站（everrich-group.com）與關務署通關規定頁中搜尋最新活動、會員權益、門市、預購提貨與服務規定，回傳摘要與引用原文、網址。商品價格與優惠計算請用 query_products、query_promos 與 get_promo_price；知識庫查不到、資料過期、只答到問題的一部分，或要查最新活動時使用本工具。可能回傳 NO_ALLOWED_SOURCES，代表官方網站中查無可引用內容。',
+      '在昇恆昌官方網站整站（集團官網、免稅購物網、宅配網）與關務署通關規定頁中搜尋最新活動、會員權益、門市、預購提貨與服務規定，回傳摘要與引用原文、網址。商品價格與優惠計算請用 query_products、query_promos 與 get_promo_price；知識庫查不到、資料過期、只答到問題的一部分，或要查最新活動時使用本工具。可能回傳 NO_ALLOWED_SOURCES，代表官方網站中查無可引用內容。',
     input_schema: {
       type: 'object',
       properties: { query: { type: 'string', description: '要查詢的問題，使用繁體中文' } },
