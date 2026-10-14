@@ -25,8 +25,8 @@
 搜尋與維護規則：
 
 1. 每次搜尋讀取目前的 `sources.json`。只選 `enabled: true`、HTTPS、無帳密、預設 port，且 hostname 為 `everrich-group.com`（昇恆昌官網）或 `customs.gov.tw`（關務署）與其真正子網域的來源。`taishinbank.com.tw`（聯名卡發卡銀行）只供追溯，不可啟用。
-2. 用 URL parser 取出 **hostname＋pathname**，移除 query（例如 `?lang=zh_TW`）與 fragment，作為 `web_search_20250305.allowed_domains`，保留 `max_uses: 3`。
-3. 搜尋結果還須檢查**相同 hostname 與完整 pathname**；同網域未列路徑、偽子網域、外站跳轉一律不採用。無有效來源時回 `NO_ENABLED_SOURCES`，引用全部被排除時回 `NO_ALLOWED_SOURCES`，不得送出無限制搜尋。
+2. 用 URL parser 取出 **hostname＋pathname**，移除 query 與 fragment。關務署來源以此作為 `web_search_20250305.allowed_domains`；昇恆昌官網只要有任一啟用來源，就以整站 `everrich-group.com` 搜尋（2026-10-15 使用者決定，官網路徑太少常查不到），保留 `max_uses: 3`。
+3. 搜尋結果還須檢查：官網整站與其真正子網域的 HTTPS 頁面可引用；關務署須**相同 hostname 與完整 pathname**；偽子網域、外站跳轉一律不採用。無有效來源時回 `NO_ENABLED_SOURCES`，引用全部被排除時回 `NO_ALLOWED_SOURCES`，不得送出無限制搜尋。
 4. 被引用的來源不可刪除，只能停用。
 
 ## promos.json

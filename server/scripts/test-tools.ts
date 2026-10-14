@@ -1,7 +1,7 @@
 import { config } from '../src/config.js';
 import type { SourceEntry } from '../src/data.js';
 import { runTool, tools } from '../src/tools/index.js';
-import { buildAllowedDomains, filterCitations } from '../src/tools/websearch.js';
+import { buildAllowedDomains, filterCitations, searchDomains } from '../src/tools/websearch.js';
 import { createSession, type ToolResult } from '../src/types.js';
 import { allocateQuotas, normalizeTasks, pickCombos } from '../src/agents/index.js';
 import { ToolBudget } from '../src/agents/budget.js';
@@ -152,6 +152,22 @@ async function main() {
     allowed,
   );
   check('只接受完全相同 hostname 與 pathname 的引用', accepted.length === 1 && rejected.length === 4, { accepted, rejected });
+  const mixed = buildAllowedDomains([src('https://www.everrich-group.com/a/b'), src('https://web.customs.gov.tw/x/1')]);
+  check('整站模式：官網合併成 everrich-group.com，關務署維持路徑', same(searchDomains(mixed), ['everrich-group.com', 'web.customs.gov.tw/x/1']), searchDomains(mixed));
+  const ws = filterCitations(
+    [
+      { url: 'https://www.everrich-group.com/destination', title: '官網其他頁' },
+      { url: 'https://shop.everrich-group.com/p/1', title: '官網子網域' },
+      { url: 'https://web.customs.gov.tw/x/2', title: '關務署未列路徑' },
+      { url: 'https://everrich-group.com.evil.example/a', title: '偽子網域' },
+      { url: 'http://www.everrich-group.com/a', title: '非 HTTPS' },
+    ],
+    mixed,
+    { wholeSite: true },
+  );
+  check('整站模式：官網任何頁可引用，關務署未列路徑、偽子網域、非 HTTPS 仍排除', ws.accepted.length === 2 && ws.rejected.length === 3, ws);
+  const onlyCustoms = buildAllowedDomains([src('https://web.customs.gov.tw/x/1')]);
+  check('官網來源全停用時，整站模式也不接受官網頁', filterCitations([{ url: 'https://www.everrich-group.com/a', title: 't' }], onlyCustoms, { wholeSite: true }).accepted.length === 0);
   check('引用原值保留（title、cited_text 不改寫）', accepted[0]?.title === '官網頁' && accepted[0]?.cited_text === '原文片段', accepted[0]);
 
   console.log('== T7 專員派工（不呼叫 API）');
@@ -256,7 +272,7 @@ async function main() {
     const live = await runTool('search_official_web', { query: '昇恆昌週年慶活動期間到什麼時候？' }, { session: anon });
     const liveAllowed = buildAllowedDomains((await import('../src/data.js')).loadSources());
     check('實際搜尋成功並附官網來源', live.ok && (live.sources ?? []).length > 0, live);
-    check('實際搜尋的來源都在允許清單內', (live.sources ?? []).every((s) => filterCitations([s], liveAllowed).accepted.length === 1), live.sources);
+    check('實際搜尋的來源都在允許清單內', (live.sources ?? []).every((s) => filterCitations([s], liveAllowed, { wholeSite: true }).accepted.length === 1), live.sources);
   } else {
     console.log('- 略過：實際 API 搜尋（尚未在 .env 設定 ANTHROPIC_API_KEY）');
   }

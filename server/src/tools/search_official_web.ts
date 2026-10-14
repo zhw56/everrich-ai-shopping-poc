@@ -4,11 +4,11 @@ import { config } from '../config.js';
 import { DATA_DIR, loadSources } from '../data.js';
 import { toJson, writeAtomic } from '../util/atomic.js';
 import type { Source, Tool } from '../types.js';
-import { buildAllowedDomains, filterCitations } from './websearch.js';
+import { buildAllowedDomains, filterCitations, searchDomains } from './websearch.js';
 
 const SYSTEM = [
   '你是昇恆昌購物小幫手的查詢助理，只能根據搜尋到的昇恆昌官網（以及財政部關務署的通關規定頁）內容回答。',
-  '搜尋範圍已限定在核准頁面，「RICHCLUB」「RICH POINT」等名稱是昇恆昌自己的會員制度與點數。',
+  '搜尋範圍已限定在昇恆昌官網（everrich-group.com）與關務署核准頁面，「RICHCLUB」「RICH POINT」等名稱是昇恆昌自己的會員制度與點數。',
   '只寫出搜尋結果中有原文依據的內容；查不到具體數字時，直接說官網搜尋結果沒有列出，不要換算或推測。',
   '使用台灣繁體中文與全形標點，200 字以內。',
   '找不到答案就直接說找不到，不要推測價格、優惠或活動期限。',
@@ -49,7 +49,7 @@ export const searchOfficialWeb: Tool<{ query: string }> = {
   definition: {
     name: 'search_official_web',
     description:
-      '只在昇恆昌官網（以及關務署通關規定）的已核准頁面中搜尋最新活動、會員權益、預購提貨與服務規定，回傳摘要與引用原文、網址。商品價格與優惠計算請用 query_products、query_promos 與 get_promo_price；知識庫查不到或資料過期、或要查最新活動時才使用本工具。可能回傳 NO_ALLOWED_SOURCES，代表核准頁面中查無可引用內容。',
+      '在昇恆昌官網整站（everrich-group.com）與關務署通關規定頁中搜尋最新活動、會員權益、門市、預購提貨與服務規定，回傳摘要與引用原文、網址。商品價格與優惠計算請用 query_products、query_promos 與 get_promo_price；知識庫查不到、資料過期、只答到問題的一部分，或要查最新活動時使用本工具。可能回傳 NO_ALLOWED_SOURCES，代表官方網站中查無可引用內容。',
     input_schema: {
       type: 'object',
       properties: { query: { type: 'string', description: '要查詢的問題，使用繁體中文' } },
@@ -59,7 +59,8 @@ export const searchOfficialWeb: Tool<{ query: string }> = {
   async run(i, ctx) {
     const allowed = buildAllowedDomains(ctx.fixtures?.sources ?? loadSources());
     if (!allowed.length) return { ok: false, error: 'NO_ENABLED_SOURCES' };
-    const cacheKey = String(i.query ?? '').trim() + '|' + allowed.map((a) => a.domain_entry).sort().join(',');
+    const domains = searchDomains(allowed);
+    const cacheKey = String(i.query ?? '').trim() + '|' + [...domains].sort().join(',');
     const useCache = !ctx.fixtures?.sources;
     const cached = useCache ? cacheGet(cacheKey) : null;
     if (cached) return { ...cached, data: { ...cached.data, cached: true } };
@@ -79,7 +80,7 @@ export const searchOfficialWeb: Tool<{ query: string }> = {
           type: 'web_search_20250305',
           name: 'web_search',
           max_uses: 3,
-          allowed_domains: allowed.map((a) => a.domain_entry),
+          allowed_domains: domains,
         },
       ],
     } as any);
@@ -93,7 +94,7 @@ export const searchOfficialWeb: Tool<{ query: string }> = {
         if (c.type === 'web_search_result_location') citations.push({ title: c.title ?? '', url: c.url, cited_text: c.cited_text });
       }
     }
-    const { accepted, rejected } = filterCitations(citations, allowed);
+    const { accepted, rejected } = filterCitations(citations, allowed, { wholeSite: true });
     const searches = res.usage?.server_tool_use?.web_search_requests ?? 0;
     if (!accepted.length) {
       return { ok: false, error: 'NO_ALLOWED_SOURCES', data: { searches, rejected_count: rejected.length } };
