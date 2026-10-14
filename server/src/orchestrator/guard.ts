@@ -25,7 +25,7 @@ const COMPLAINT = /(申訴|客訴|投訴|退費|退款|退錢|退貨|退還費�
 export const CONSECUTIVE_LIMIT = 2;
 
 /** 規定類問題（菸酒與行李免稅額度、液體、點數效期、預購期限）：模型常憑印象回答，程式強制第一步先查資料 */
-export const RULE_LOOKUP = /免稅額度|免稅數量|免稅限額|幾瓶|幾公升|公升|幾條菸|帶幾|液體|100\s*ml|點數.{0,6}(到期|過期|效期|期限)|預購.{0,8}(期限|最晚|多久|幾天)|提貨.{0,6}(要帶|證件|文件)/i;
+export const RULE_LOOKUP = /免稅額度|免稅數量|免稅限額|幾瓶|幾公升|公升|幾條菸|帶幾|液體|100\s*ml|點數.{0,6}(到期|過期|效期|期限)|預購.{0,8}(期限|最晚|多久|幾天)|提貨.{0,6}(要帶|證件|文件)|內湖|市區(店|門市|免稅)|門市.{0,6}(買|購|優惠|價格|提貨)/i;
 
 export function classifyMessage(message: string, unansweredStreak = 0): Guard {
   const m = message ?? '';
