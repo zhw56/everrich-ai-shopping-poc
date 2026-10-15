@@ -212,6 +212,10 @@ async function main() {
   check('S7 可組出 3 組不重複的商品＋優惠', combos.length === 3 && new Set(combos.map((c) => c.bundle_id)).size === 3, combos.map((c) => c.bundle_id));
   check('組合涵蓋推薦的前 2 件商品', prodIds.slice(0, 2).every((id) => combos.some((c) => c.product.id === id)), combos.map((c) => c.product.id));
   check('組合結帳價沿用引擎結果', combos.every((c) => opts.some((o) => o.bundle_id === c.bundle_id && o.bundle_price === c.bundle_price)));
+  const shi = await runTool('get_promo_price', { product_id: 'prod-shiseido-ultimune-100', channel: 'dutyfree' }, { session: userC });
+  const shiCombos = pickCombos(d(shi).options, ['prod-shiseido-ultimune-100'], [{ id: 'promo-card-cobrand' }, { id: 'promo-beauty-week' }], 3);
+  check('要聯名卡卻比較不省的選項不推薦（資生堂：品牌週 88 折省 516 勝過聯名卡 9 折省 430）', shiCombos[0]?.promo.id === 'promo-beauty-week' && !shiCombos.some((c) => c.promo.id === 'promo-card-cobrand'), shiCombos.map((c) => `${c.promo.id}:${c.saving}`));
+  check('替代選項標示門檻較低的理由', combos.some((c) => c.reason.startsWith('沒有聯名卡')) || combos.every((c) => c.reason === '這件商品最省的優惠'), combos.map((c) => c.reason));
   console.log('  S7 組合：' + combos.map((c) => `${c.product.name}＋${c.promo.name}＝${c.bundle_price}（${c.reason}）`).join('；'));
 
   console.log('== T7 語言防護');

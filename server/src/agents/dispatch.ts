@@ -167,6 +167,7 @@ export async function dispatchAgents(
       product: c.product.name,
       promo: c.promo.name,
       promo_id: c.promo.id,
+      requirement: c.promo.requirement_label,
       list_price: c.list_price,
       bundle_price: c.bundle_price,
       saving: c.saving,
